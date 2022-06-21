@@ -65,8 +65,6 @@ for (let j = 1; j < 6; j++) {
   }
 }
 
-
-
 //for in ,for of  ,forEach   ,{ block }
 
 let val = 10;
@@ -102,28 +100,66 @@ switch (opr) {
     console.log("invalid operation");
 }
 
-
-
-//ternary operator / conditionl operator 
+//ternary operator / conditionl operator
 
 //short hand notation for if else
 
-(num1==5) ? console.log("true"): console.log("false");
+// (condition)?(true):(false) ;
 
-//binary 1 (true)  and 0 (false)
-if(true ){
-    console.log("true");//true
-}
+num1 == 5 ? console.log("true") : console.log("false");
 
-console.log(10%5);// remainder  0 
-console.log(10/5);//qoutient   2
+// //binary 1 (true)  and 0 (false)
+// if (true) {
+//   console.log("true"); //true
+// }
+
+// console.log(10 % 5); // remainder  0
+// console.log(10 / 5); //qoutient   2
 
 /*
 1- 20 
 to print all even values between 1 and 20
+
 even -> 
 print "zig" if a value is divisible by 3 and print "zag" if divisible by 5 , "zigzag" if divisble by both 5 and 3
 
 1 3 5  15 20 
 
+
+
+
+
+
 */
+for (let i = 0; i <= 10; i++) {
+  console.log(2 * i);
+}
+
+let number = 9;
+
+// for(let i=0 ;i<=20;i++){
+//   if(i%2==0){
+//     console.log(i+" "+"even")
+//   }
+// }
+
+// for (let j = 1; j <= 30; j++) {
+//   if (j % 3 == 0 && j % 5 == 0) {
+//     console.log(j + " ZigZag");
+//   } else if (j % 3 == 0) {
+//     console.log(j + " Zig");
+//   } else if (j % 5 == 0) {
+//     console.log(j + " Zag");
+//   }
+// }
+
+for (let i = 1; i <= 20; i++) {
+  let res =
+    i % 3 == 0 && i %5==0 ? i+" zigzag":i%3==0?i+" zig":i%5==0?i+" zag":"not divisible by both 3 and 5";
+       
+
+  console.log(res);
+
+}
+
+
