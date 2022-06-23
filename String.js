@@ -3,7 +3,7 @@
 
 //str = char[10];
 // index   0123456789012
-let str = "double qoutes";
+let str = "double qoutes";  //13
 let str1 = "Single qoutes";
 let str2 = `backTicks`;
 
@@ -14,8 +14,9 @@ console.log(strlen);
 
 //reverse a string
 let revStr = "";
+//          12             2      3
 for (let i = strlen - 1; i >= 0; i--) {
-  revStr = revStr + str[i];
+  revStr = revStr + str[i];// revStr = "se"+"t"="set"
 }
 
 console.log(revStr);
