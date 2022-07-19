@@ -1,4 +1,4 @@
-//function ->
+//function -> code reusability
 
 //code reusability
 
@@ -57,6 +57,7 @@ function B(functionA){//A
 //A()=> undefined
 
 B(A);
+
 
 
 //function which is passed as an argument to another function is callled "Callback function" -> A

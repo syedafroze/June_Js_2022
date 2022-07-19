@@ -1,0 +1,53 @@
+
+
+
+
+Tools and rules 
+practice 
+
+
+variables
+datatypes
+conditional stmnts (if else else if , swicth case, terary operator)
+loops ( for loop , while , do while ,for in , for of )
+string ( )
+function ( Regular , recurisve , arrow function , nested , currying  , callback , higher order function  )  
+Arrays
+ - push()
+ - pop()
+ - shift()
+ - unshift() 
+ - indexOf ,lastIndexOf()
+ - includes
+ - slice
+ - reverse()
+ - sort();
+ - sort((a,b)=>a-b)
+ - concat
+ - map
+ - filter
+ - reduce
+Rest and Spread 
+Object 
+class
+
+class inheritance 
+
+slice 
+splice 
+ forEach
+ Destructuring
+ Set 
+default paramtets
+------pending ---------
+Map
+Promises
+async await 
+timers
+event loop
+Iterator /Generator 
+
+
+---------------- React JS ------------------
+
+

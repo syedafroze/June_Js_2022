@@ -1,0 +1,5 @@
+
+
+//synchronous and asynchrnous 
+
+
