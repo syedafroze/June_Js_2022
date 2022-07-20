@@ -39,13 +39,14 @@ splice
  Destructuring
  Set 
 default paramtets
-------pending ---------
+timers
+event loop
 Map
 Promises
 async await 
-timers
-event loop
 Iterator /Generator 
+
+------pending ---------
 
 
 ---------------- React JS ------------------
